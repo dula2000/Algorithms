@@ -1,6 +1,22 @@
 # Algorithms
 Practicing the algorithms in Uni
 
+
+----------Selection Sort-------------
+       This sorting algorithm, iterates through the array and finds the smallest number in the array and swaps it with the first element if it is smaller than the first element. Next, it goes on to the second element and so on until all elements are sorted.         
+
+-----------Pseudocode-----------
+     for(i=0;i<count;i++){
+      for(j=i+1;j<count;j++){
+         if(number[i]>number[j]){
+            temp=number[i];
+            number[i]=number[j];
+            number[j]=temp;
+         }
+      }
+   }
+
+
 linear search-*******************************************************************************************************************************************
 Linear search is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
 
