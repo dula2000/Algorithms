@@ -1,6 +1,29 @@
 # Algorithms
 Practicing the algorithms in Uni
 
+------------------Stack------------------
+Stack is a linear data structure that follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+
+Mainly the following three basic operations are performed in the stack:
+
+**Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
+      void push(int item)
+        {
+             	st.top++;
+             	st.s[st.top] =item;
+        }
+
+**Pop: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
+              int pop()
+       {
+ 	         int item;
+	         item = st.s[st.top];
+	         st.top--;
+         	return (item);
+       }
+
+**Peek or Top: Returns the top element of the stack.
+**isEmpty: Returns true if the stack is empty, else false.
 
 ----------Selection Sort-------------
        This sorting algorithm, iterates through the array and finds the smallest number in the array and swaps it with the first element if it is smaller than the first element. Next, it goes on to the second element and so on until all elements are sorted.         
