@@ -147,5 +147,5 @@ function bubbleSort(arr) {
   return arr;
 }
 	
-	It has a time complexity of <b> O(n^2) </b> and is not suitable for large datasets because of its poor performance.
+	It has a time complexity of  "O(n^2)" and is not suitable for large datasets because of its poor performance.
 
