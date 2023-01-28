@@ -117,6 +117,7 @@ Then, toss every element into its appropriate bucket.
 After that, sort each bucket individually by applying a sorting algorithm.
 And at last, concatenate all the sorted buckets.
 
+
 **The advantages of bucket sort are -
       - Bucket sort reduces the no. of comparisons.
       - It is asymptotically fast because of the uniform distribution of elements.
@@ -128,3 +129,9 @@ And at last, concatenate all the sorted buckets.
       -It is not an in-place sorting algorithm, because some extra space is required to sort the buckets.
       
  **The best and average-case complexity of bucket sort is O(n + k), and the worst-case complexity of bucket sort is O(n2), where n is the number of items.
+
+-----------------------Bubble Sort-----------------------------
+
+Bubble sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top of the list as the sort progresses.
+
+
